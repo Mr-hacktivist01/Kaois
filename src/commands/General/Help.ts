@@ -54,7 +54,7 @@ export default class Command extends BaseCommand {
                     : ''
             }\n🃏 *Group Only:* ${this.client.util.capitalize(
                 JSON.stringify(!command.config.dm ?? true)
-            )}\n🎀 *Usage:* ${command.config?.usage || ''}\n\n🔖 *Description:* ${command.config?.description || ''}`
+            )}\n🎀 *Usage:* ${command.config?.usage || ''}\n\n🔖 *Description:* ${command.config?.description || 'HACKTIVIST KAOI WHATSAPP BOT WITH RICH FEATURES.'}`
         )
     }
 
